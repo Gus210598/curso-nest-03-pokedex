@@ -11,7 +11,7 @@ export class SeedService {
     //
 
     const { data } = await this.axios.get<PokeResponse>(
-      'https://pokeapi.co/api/v2/pokemon?limit=1',
+      'https://pokeapi.co/api/v2/pokemon?limit=10',
     );
 
     data.results.forEach(({ name, url }) => {
