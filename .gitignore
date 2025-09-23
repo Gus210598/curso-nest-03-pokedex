@@ -2,8 +2,11 @@
 /dist
 /node_modules
 /build
+
 # MongoDB en Docker
 /mongo
+
+.env
 
 # Logs
 logs
